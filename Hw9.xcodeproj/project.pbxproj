@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEE388C31CF6CA7900728F96 /* hw9.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEE388C21CF6CA7900728F96 /* hw9.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EEE388BD1CF6CA7800728F96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EEE388BF1CF6CA7800728F96 /* Hw9 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Hw9; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE388C21CF6CA7900728F96 /* hw9.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hw9.cpp; sourceTree = "<group>"; };
+		EEE388C91CF6CAD200728F96 /* BinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
+		EEE388CA1CF6CAF700728F96 /* Point2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Point2D.h; sourceTree = "<group>"; };
+		EEE388CB1CF6CB1700728F96 /* PointOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointOrder.h; sourceTree = "<group>"; };
+		EEE388CC1CF6CB3A00728F96 /* TreeIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeIterator.h; sourceTree = "<group>"; };
+		EEE388CD1CF6CB5400728F96 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE388BC1CF6CA7800728F96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEE388B61CF6CA7700728F96 = {
+			isa = PBXGroup;
+			children = (
+				EEE388C11CF6CA7800728F96 /* Hw9 */,
+				EEE388C01CF6CA7800728F96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE388C01CF6CA7800728F96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE388BF1CF6CA7800728F96 /* Hw9 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE388C11CF6CA7800728F96 /* Hw9 */ = {
+			isa = PBXGroup;
+			children = (
+				EEE388C21CF6CA7900728F96 /* hw9.cpp */,
+				EEE388C91CF6CAD200728F96 /* BinarySearchTree.h */,
+				EEE388CA1CF6CAF700728F96 /* Point2D.h */,
+				EEE388CB1CF6CB1700728F96 /* PointOrder.h */,
+				EEE388CC1CF6CB3A00728F96 /* TreeIterator.h */,
+				EEE388CD1CF6CB5400728F96 /* TreeNode.h */,
+			);
+			path = Hw9;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE388BE1CF6CA7800728F96 /* Hw9 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE388C61CF6CA7900728F96 /* Build configuration list for PBXNativeTarget "Hw9" */;
+			buildPhases = (
+				EEE388BB1CF6CA7800728F96 /* Sources */,
+				EEE388BC1CF6CA7800728F96 /* Frameworks */,
+				EEE388BD1CF6CA7800728F96 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hw9;
+			productName = Hw9;
+			productReference = EEE388BF1CF6CA7800728F96 /* Hw9 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE388B71CF6CA7700728F96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kendrick Chu";
+				TargetAttributes = {
+					EEE388BE1CF6CA7800728F96 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EEE388BA1CF6CA7700728F96 /* Build configuration list for PBXProject "Hw9" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EEE388B61CF6CA7700728F96;
+			productRefGroup = EEE388C01CF6CA7800728F96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE388BE1CF6CA7800728F96 /* Hw9 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE388BB1CF6CA7800728F96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE388C31CF6CA7900728F96 /* hw9.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEE388C41CF6CA7900728F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EEE388C51CF6CA7900728F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EEE388C71CF6CA7900728F96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEE388C81CF6CA7900728F96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE388BA1CF6CA7700728F96 /* Build configuration list for PBXProject "Hw9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE388C41CF6CA7900728F96 /* Debug */,
+				EEE388C51CF6CA7900728F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE388C61CF6CA7900728F96 /* Build configuration list for PBXNativeTarget "Hw9" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE388C71CF6CA7900728F96 /* Debug */,
+				EEE388C81CF6CA7900728F96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE388B71CF6CA7700728F96 /* Project object */;
+}
